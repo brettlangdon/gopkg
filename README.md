@@ -1,10 +1,16 @@
 gopkg
 =====
 
-`gopkg` is a helper wrapper similar to `virtualenvwrapper` for python, making it
-easy to keep package third party dependencies isolated. `gopkg.sh` simply
-provides some bash functions to help manage your `GOPATH`.
+`gopkg` is a helper script for helping you manage your go environment similar to
+`virtualenvwrapper` for python, making it easy to keep project third party
+dependencies isolated.
 
+`gopkg.sh` provides the commands `mkgopkg`, `rmgopkg` and `gopkg` which are used
+to create, remove and activate go projects.
+
+`gopkg` was written for fun in a few hours, so no guarantee that it'll work for
+everyone on every system. If you experience any issues, please open an issue and
+I'd be more than happy to investigate with you.
 
 ## Setup
 

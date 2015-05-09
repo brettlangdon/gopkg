@@ -8,7 +8,7 @@ dependencies isolated.
 `gopkg.sh` provides the commands `mkgopkg`, `rmgopkg` and `gopkg` which are used
 to create, remove and activate go projects.
 
-`gopkg` was written for fun in a few hours, so no guarantee that it'll work for
+The first iteration of `gopkg` was written in just a few hours, so no guarantee that it'll work for
 everyone on every system. If you experience any issues, please open an issue and
 I'd be more than happy to investigate with you.
 

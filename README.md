@@ -11,8 +11,7 @@ provides some bash functions to help manage your `GOPATH`.
 Download the latest version of the script.
 ```bash
 mkdir ~/.gopkg
-cd ~/.gopkg
-curl -o gopkg.sh https://raw.githubusercontent.com/brettlangdon/gopkg/master/gopkg.sh
+curl -o ~/.gopkg/gopkg.sh https://raw.githubusercontent.com/brettlangdon/gopkg/master/gopkg.sh
 ```
 
 Next modify your `~/.bashrc` or `~/.zshrc` files to include the following
